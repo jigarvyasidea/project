@@ -1,0 +1,47 @@
+.video-slider-container {
+    margin: 20px;
+  }
+  
+  .video-slide {
+    padding: 10px;
+  }
+  
+  /* Add any additional styles as per your requirement */
+  /* VideoSlider.css */
+
+/* General styles for video slides */
+.video-slide {
+    margin: 10px; /* Add a margin around each video slide */
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+  }
+  
+  /* Hover effect for the video slide */
+  .video-slide:hover {
+    transform: scale(1.1); /* Enlarge the video on hover */
+  }
+  
+  /* Left-aligned video slide */
+  .video-slide-left {
+    margin-right: 5px; /* Add some right margin for spacing */
+  }
+  
+  /* Right-aligned video slide */
+  .video-slide-right {
+    margin-left: 5px; /* Add some left margin for spacing */
+  }
+
+  /* VideoSlider.css */
+
+/* ... (existing styles) */
+
+/* Styling for the "Business Plan" heading */
+.h1 {
+    font-size: 3rem; /* Increase the font size */
+    text-align: center;
+    background-image: linear-gradient(to right, #00b4db, #0083b0); /* Add a gradient background */
+    -webkit-background-clip: text; /* Apply the gradient as a text color */
+    color: transparent;
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+  
+  

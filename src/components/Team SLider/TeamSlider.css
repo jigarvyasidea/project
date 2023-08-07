@@ -1,0 +1,91 @@
+/* TeamSlider.css */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .team-member {
+    position: relative;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .member-name {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Adjust the styles for mobile devices */
+  @media (max-width: 768px) {
+    .slider-container {
+      width: 90%;
+    }
+  }
+
+  /* TeamSlider.css */
+.team-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff; /* You can change the color to your preference */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Add any other CSS styles as per your design preferences */
+/* TeamSlider.css */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .team-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .team-member {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.3s ease; /* Adding a smooth transition effect */
+  }
+  
+  .member-name {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect styles */
+  .team-member:hover img {
+    transform: scale(1.1); /* Increase the size of the image on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+  }
+  
+  .team-member:hover .member-name {
+    color: #f44336; /* Change the text color on hover */
+  }
+    
+  

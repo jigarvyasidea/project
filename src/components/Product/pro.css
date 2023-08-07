@@ -1,0 +1,83 @@
+/* ProductSection.css */
+
+.product-section {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-slider-card {
+    text-align: center;
+  }
+  
+  .product-slider-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-slider {
+    padding: 20px;
+  }
+  
+  /* Add margin and padding between product cards and the border */
+.product-slider {
+    padding: 20px;
+  }
+  
+  .product-slider .product-slider-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add hover effect */
+  .product-slider .product-slider-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Style product name in h1 section */
+  .product-section h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style product name in slider cards */
+  .product-slider .product-slider-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Style purchase button */
+  .product-slider .product-slider-card button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-slider .product-slider-card button:hover {
+    background-color: #e23e00;
+  }
+  
